@@ -16,5 +16,4 @@ If case of questions, comments, or suggestions for improvement or collaboration,
 GEOPHIRES v2.0 is distributed as open-source under the GNU General Public License version 3.0 (GPLv3), Copyright (c) 2019 Alliance for Sustainable Energy, LLC.
 
 ## Version
-- GEOPHIRES v2.0 Build Date: June 6th, 2018
-- GitHub Folder Latest Update: June 6th, 2018
+- GEOPHIRES v2.0 Build Date: December 9, 2018
