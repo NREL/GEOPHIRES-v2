@@ -62,11 +62,11 @@ def vaporpressurewater(Twater):
     return vaporpressurewater;
 
 
-def run():
+def run_geophires(input_file_path=os.path.join('Examples', 'example4.txt')):
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
     # specify path of input file
-    fname = os.path.join('Examples', 'example4.txt')
+    fname = input_file_path
 
     tic = time.time()
 
@@ -3378,6 +3378,3 @@ def run():
                                                                                                            FirstLawEfficiency[
                                                                                                                i * timestepsperyear] * 100))
 
-
-if __name__ == '__main__':
-    run()
