@@ -62,7 +62,9 @@ def vaporpressurewater(Twater):
     return vaporpressurewater;
 
 
-def run_geophires(input_file_path=os.path.join('Examples', 'example4.txt')):
+def run_geophires(
+        input_file_path=os.path.join('Examples', 'example4.txt'),
+        output_file_path='HDR.out'):
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
     # specify path of input file
@@ -2723,7 +2725,7 @@ def run_geophires(input_file_path=os.path.join('Examples', 'example4.txt')):
     # ---------------------------------------
     # write results to output file and screen
     # ---------------------------------------
-    f = open('HDR.out', 'w')
+    f = open(output_file_path, 'w')
     f.write('                               *****************\n')
     f.write('                               ***CASE REPORT***\n')
     f.write('                               *****************\n')
